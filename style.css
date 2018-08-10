@@ -1,0 +1,133 @@
+body, html {
+  background: #EEE;
+  margin-top: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.app {
+  border: 1px solid;
+  display: inline-block;
+  padding: 15px;
+  width: 100%;
+  max-width: 350px;
+  background: #343436;
+  border-radius: 10px;
+}
+
+a[disabled] {
+  pointer-events: none;
+}
+
+a, p {
+  color: #FFF;
+}
+
+a[disabled] > span,
+a[disabled] > i {
+  color: #939393;
+}
+
+.pomodoro-timer, #pomodoro-progress {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.pomodoro-timer {
+  display: table;
+  width: 100%;
+  background: #FF3C41;
+  margin: 0 auto;
+  position: relative;
+}
+
+#pomodoro-progress {
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background: #35D400;
+}
+
+.pomodoro-timer > span {
+  display: table-cell;
+  vertical-align: middle;
+  color: #FFF;
+  font-size: 4em;
+  position: relative;
+  padding: 10px;
+}
+
+.pomodoro-control {
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.pomodoro-control > a {
+  text-decoration: none;
+  background: #282828;
+  color: #FFF;
+  padding: 5px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  width: 50%;
+  float: left;
+}
+
+.pomodoro-control > a:first-child {
+  border-right: 1px solid #434343;
+}
+
+.pomodoro-control > a:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.pomodoro-control > a:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.pomodoro-control > a:hover {
+  background: #5D5D5D;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 3px;
+}
+
+.min-pref {
+  background: #FFF;
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+label {
+  font-weight: normal;
+}
+
+label > span {
+  font-weight: bold;
+}
+
+#status {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #FFF;
+}
+
+[id^="slider"] {
+  margin: 3px 0 10px 0;
+}
+
+.ui-widget-content {
+    border: 1px solid #CCC;
+    background: #ff3c41;
+}
